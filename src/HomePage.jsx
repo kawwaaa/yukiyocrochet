@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './HomePage.css';
 
+
 const HomePage=()=>{
     return(
         <div className="background">
@@ -21,12 +22,13 @@ const HomePage=()=>{
             </div>
             <div className="buttons">
                 <Link to="/ShopPatterns">
-                    <button>Shop Patterns</button>
+                    <button className="sbutton">Shop Patterns</button>
                 </Link>
                 <Link to="/ShopItems">
-                    <button>Shop Items</button>
+                    <button className="sbutton">Shop Items</button>
                 </Link>
             </div>
+            
         </div>
     );
 };

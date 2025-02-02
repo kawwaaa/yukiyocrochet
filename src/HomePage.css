@@ -40,7 +40,7 @@
     margin-top: 20px;
 }
 
-button{
+.sbutton{
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
@@ -52,7 +52,9 @@ button{
 
 
 }
-button:hover{
+.sbutton:hover{
     background-color: #0056b3;
 
 }
+
+
