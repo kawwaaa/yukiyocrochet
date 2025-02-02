@@ -1,0 +1,48 @@
+.backgroundpage{
+    
+    background-image:url('./assets/backgroundpage.png');
+    background-size: cover;
+    background-position: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    transform: scale(1);
+    background-attachment: fixed;
+    
+}
+.content1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    
+}
+.content1  img{
+    height: 170px ;
+}
+.patterntopic img{
+    margin-top: 60px;
+    
+    height: 100px;
+    margin-left: 50px;
+    
+}
+.products{
+
+        display: flex;
+        gap: 120px;
+        overflow-x: scroll;
+        top: 500px;
+        margin-left: 150px;
+
+        
+    
+}
+.products::-webkit-scrollbar{
+    display: none;
+}
+
+
+

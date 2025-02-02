@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './HomePage.css';
+import shopi from "./assets/shopi.png";
+import shoppat from "./assets/shoppat.png";
+import topic from "./assets/topic.png"
 
 
 const HomePage=()=>{
     return(
         <div className="background">
             <div className="content">
-                <h1>Yukiyocrochet</h1>
+                <img src={topic} alt="topic" />
             </div>
             <div className="about-container">
                 
@@ -22,10 +25,14 @@ const HomePage=()=>{
             </div>
             <div className="buttons">
                 <Link to="/ShopPatterns">
-                    <button className="sbutton">Shop Patterns</button>
+                    <button className="sbutton">
+                        <img src={shoppat} alt="shoppat" />
+                    </button>
                 </Link>
                 <Link to="/ShopItems">
-                    <button className="sbutton">Shop Items</button>
+                    <button className="sbutton">
+                        <img src={shopi} alt="shopi" />
+                    </button>
                 </Link>
             </div>
             

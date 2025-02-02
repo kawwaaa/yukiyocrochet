@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image":"./assets/Emma.png",
+        "name":"Emma",
+        "price":83
+
+    },
+    {
+        "id": 2,
+        "image":"./assets/blossoms.png",
+        "name":"Blossom Shrug",
+        "price":50
+
+    },
+    {
+        "id": 3,
+        "image":"./assets/ist.png",
+        "name":"Island Sun Tote",
+        "price":60
+
+    },
+    {
+        "id": 4,
+        "image":"./assets/EdenSeries.png",
+        "name":"ebloss",
+        "price":83
+
+    },
+    {
+        "id": 5,
+        "image":"./assets/Emma.png",
+        "name":"Emma",
+        "price":83
+
+    }
+]

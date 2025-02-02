@@ -1,5 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import "./index.css"
+import"./fonts/dreaming-outloud-regular.otf"
  
 
 import App from './App.jsx';
